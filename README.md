@@ -1,6 +1,6 @@
 # Fake-news-classifier-using-DecisionTreeClassifier
 This is an API deployed on flask, which implemets a DecisionTreeClassifier to classify fake news.
-The training dataset contains [] instances, with URL, body and heading. Each instance is labelled '1' for genuiene and '0' for fake.
+The training dataset contains 4009 instances, with URL, body and heading. Each instance is labelled '1' for genuiene and '0' for fake.
 The URLs column was dropped and the model is trained only on the heading and body columns. The IPython notebook is included in the repo, which was used for EDA and training of the model.
 
 The initial preprocessing of the text was done using the nltk library and the feature matrix was generated using CountVecotrizer of Scikit-learn. 
