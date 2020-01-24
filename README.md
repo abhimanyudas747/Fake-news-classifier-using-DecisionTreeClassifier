@@ -1,5 +1,6 @@
 # Fake-news-classifier-using-DecisionTreeClassifier
 This is an API deployed on flask, which implemets a DecisionTreeClassifier to classify fake news.
+The training dataset used here is the Fake News detection dataset available on kaggle. (URL given at the bottom)
 The training dataset contains 4009 instances, with URL, body and heading. Each instance is labelled '1' for genuiene and '0' for fake.
 The URLs column was dropped and the model is trained only on the heading and body columns. The IPython notebook is included in the repo, which was used for EDA and training of the model.
 
@@ -23,5 +24,8 @@ To see it in action:
                                                         }
  
  Note: You can also use it over WAN by forwarding the port
+ 
+ URL to training dataset : https://www.kaggle.com/jruvika/fake-news-detection
+ The training of the classifier and the preprocessing of the dataset is done on a Kaggle IPython notebook, which is included here. (Since, my potato pc can't handle a 147 MiB dataset)
  
  Thanks for checking out this project, this is my first on Github :D
