@@ -9,17 +9,18 @@ The initial preprocessing of the text was done using the nltk library and the fe
 The API is deployed on Flask, it takes the URL, heading and body as JSON request and responds with a JSON object predicting the instance.
 
 To see it in action:
-*Fire up Anaconda shell
-*Navigate to the directory where the "Fake news classifier API.py" is present
-*type in Anaconda shell : python "Fake news classifier API.py"
-*The flask server will run on localhost:5000
-*Send HTTP POST request to localhost:5000/predict
-* request should be a JSON object of format : {
+1. Clone this repo
+2. Fire up Anaconda shell
+3. Navigate to the repo directory
+4. type in Anaconda shell : python "Fake news classifier API.py"
+5. The flask server will run on localhost:5000
+6. Send HTTP POST request to localhost:5000/predict
+7. request should be a JSON object of format : {
                                                 "URL" : "[url of the news]",
                                                 "Heading" : "[Heading of the news]",
                                                 "Body" : "[Body of the news]"
                                               }
-*You should get a response(JSON object) in the format : {
+8. You should get a response(JSON object) in the format : {
                                                           "Prediction" : "[Fake/Genuine]"
                                                         }
  
