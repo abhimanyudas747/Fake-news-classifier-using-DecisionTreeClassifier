@@ -15,8 +15,8 @@ To see it in action:
 *The flask server will run on localhost:5000
 *Send HTTP POST request to localhost:5000/predict
 * request should be a JSON object of format : {
-                                                "URL" : "[url of the news]"
-                                                "Heading" : "[Heading of the news]"
+                                                "URL" : "[url of the news]",
+                                                "Heading" : "[Heading of the news]",
                                                 "Body" : "[Body of the news]"
                                               }
 *You should get a response(JSON object) in the format : {
