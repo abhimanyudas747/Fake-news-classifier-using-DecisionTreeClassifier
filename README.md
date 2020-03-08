@@ -12,7 +12,7 @@ To see it in action:
 1. Clone this repo
 2. Fire up Anaconda shell
 3. Navigate to the repo directory
-4. type in Anaconda shell : python "Fake news classifier API.py"
+4. type in Anaconda shell : python "FakenewsclassifierAPI.py"
 5. The flask server will run on localhost:5000
 6. Send HTTP POST request to localhost:5000/predict
 7. request should be a JSON object of format : {
