@@ -1,1 +1,1 @@
-web: gunicorn FakenewsclassifierAPI:app
+web: gunicorn API:app
