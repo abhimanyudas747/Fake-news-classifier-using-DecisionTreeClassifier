@@ -1,0 +1,12 @@
+nltk
+Flask
+string
+joblib
+gunicorn
+itsdangerous
+Jinja2
+scikit-learn
+numpy
+pandas
+pickle
+re
